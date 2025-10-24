@@ -1,0 +1,231 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: #0000001a;
+    border: solid rgba(0, 0, 0, 0.15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em #0000001a, inset 0 0.125em 0.5em #00000026;
+}
+.bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+/* boton principal q dice pagina pricnipal*/
+.btn-custom {
+  background-color: #f7a8c0;
+  color: #000;
+  border: none;
+  transition: all 0.3s ease;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.btn-custom:hover {
+  background-color: #ffd4a8; /* color dps del hover */
+  color: #000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+/* boton + info */
+.btn-custom-secondary {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.btn-custom-secondary:hover {
+  background-color: #adb5bd;
+  color: black;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transform: translateY(-2px);
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+}
+.card-img-top {
+    height: 225px;
+    object-fit: cover;
+}
+.date-badge {
+    background: #7f70f5;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+}
+
+/* fondo gradiente */
+body {
+  background: radial-gradient(circle at top left,
+    #7f70f5 0%,      /* azul */
+    #c084f5 25%,     /* morado claro */
+    #f7a8c0 50%,     /* rosado */
+    #ffd4a8 75%,     /* tono peachy */
+    #fff3c8 100%     /* amarillo */
+  );
+  background-attachment: fixed; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  min-height: 100vh;
+  position: relative;
+}
+
+
+.bg-body-tertiary {
+  background-color: rgba(0, 0, 0, 0.55) !important;
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+}
+
+footer {
+  position: relative;
+  z-index: 1;
+  background: transparent; 
+  color: #000; 
+}
+
+footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: transparent; 
+  z-index: -1;
+}
+
+
+footer a {
+  color: #000 !important;
+  transition: all 0.3s ease;
+}
+
+footer a:hover {
+  color: #333 !important;
+  text-decoration: underline;
+}
+
+footer {
+  position: relative;
+  z-index: 1;
+  background: transparent;
+  color: #000;
+  padding-top: 2rem; 
+  border-top: 1px solid #000; 
+}
+
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: rgba(33, 33, 33, 0.5); 
+  border: none;
+  color: white;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+.social-intro {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.social-footer {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000;
+  font-style: italic;
+  margin-top: 2rem;
+  transition: all 0.3s ease;
+}
+
+.social-footer:hover {
+  color: #ffffff;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+}
+
+
+section.text-body-secondary a {
+  color: #000;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+
+section.text-body-secondary a:hover {
+  color: #000;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transform: translateY(-2px);
+}
+
+
+.hero-section {
+  background-color: #111; 
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1); 
+}
+
+
+.hero-section h1 {
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.hero-section p.lead {
+  color: #ccc;
+}
+
+header .text-bg-dark {
+  background-color: #000 !important; 
+  color: #fff !important;
+}
+
+
